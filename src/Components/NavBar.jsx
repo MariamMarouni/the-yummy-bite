@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"; //I imported the Link component from react-router-dom to create navigation links in my NavBar component. The Link component allows for client-side routing without full page reloads, which makes the navigation smoother and faster.
 
-export const NavBar = ({}) => { //This is my third component named  NavBar, which is a functional component that doesn't take any props. It returns a navigation bar that contains links to different pages of my website (Home, Menu, About, Contact). The Link component from react-router-dom is used to create these links, allowing for client-side routing without full page reloads.
+export const NavBar = () => { //This is my third component named  NavBar, which is a functional component that doesn't take any props. It returns a navigation bar that contains links to different pages of my website (Home, Menu, About, Contact). The Link component from react-router-dom is used to create these links, allowing for client-side routing without full page reloads.
 
     return (
 
