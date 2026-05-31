@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Home = ({}) => { // Home page component and it doesn't take any props
+export const Home = () => { // Home page component and it doesn't take any props
  
     return (
 
