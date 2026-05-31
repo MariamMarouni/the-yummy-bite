@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px 20px;
+    background-color: white;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    color: deeppink;
+}
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-image: url('/public/cake-pattern.jpg');
+    background-repeat: repeat;
+    color: black;
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.menu,.about,.contact {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.2);
+}
+.card {
+    margin: 10px 0px;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-body {
+    background-color: rgba(255, 192, 203, 0.7);
+}
+select {
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffc0cb;
+    margin-top: 10px;
+}
+.contact {
+    text-align: center;
+    margin:0 auto;
+    width: 100%;
+}
+.contact a {
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: deeppink;
+}
+@media only screen and (max-width: 600px) {
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .hero h2 {
+        font-size: 30px;
+    }
+}
+#root {
+    text-align: center;
+}
