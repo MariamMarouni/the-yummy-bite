@@ -1,10 +1,11 @@
-import React, { useState } from "react";
-import { Cake } from "../Classes/Cake";
-import { CakeList } from "../Components/CakeList";
+import React from "react";
+import { useState } from "react"; //Since I want to save the data of my cakes.
+import { Cake } from "../Classes/Cake"; //I import the Cake class to create new cake objects.
+import { CakeList } from "../Components/CakeList"; 
 
 export const Menu = ({}) => {
 
-    const [cakes] = useState([
+    const [cakes] = useState([ //I don't use setCakes since I don't need to update the cakes data(NO Add cake or Delete cake OR update cake in my project), so I only use the state to initialize it and not to update it.
 
         new Cake(
             "Strawberry Cake",
@@ -14,7 +15,7 @@ export const Menu = ({}) => {
                 "Medium : $18",
                 "Large : $20"
             ]
-        ),
+        ), //If I want to change the name or price of a cake as a Programmer I change it here.
 
         new Cake(
             "Pineapple Cake",
@@ -103,11 +104,9 @@ export const Menu = ({}) => {
 
             <h2>Our Cake Prices</h2>
 
-            <CakeList
-                cakes={cakes}
-            />
-
+            <CakeList cakes={cakes}/> 
         </section>
 
-    );
+    ); 
 };
+//Note: <CakeList cakes={cakes}/>  means show CakeList component and give it the cakes array up .First word"cake" is just a prop we can change its name by the second cakes is the name of the array cakes.

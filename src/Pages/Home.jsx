@@ -1,7 +1,7 @@
 import React from "react";
 
-export const Home = ({}) => {
-
+export const Home = ({}) => { // Home page component and it doesn't take any props
+ 
     return (
 
         <section className="hero">
@@ -16,5 +16,5 @@ export const Home = ({}) => {
 
         </section>
 
-    );
-};
+    ); 
+}; //This is the page that will be displayed when the user visits the home page of the website. It contains a welcoming message and a tagline for the bakery.
