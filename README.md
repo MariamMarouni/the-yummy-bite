@@ -112,15 +112,27 @@ http://localhost:3000
 8. Continue to the OrderNow page.
 9. Enter your contact and delivery information.
 10. Submit your order.
+## 📸 Screenshots
 
- ##screenshots
+### Home Page
+![Home Page](./src/screenshots/HomePage.png)
 
-* Home 
-* Menu Page
-* About Page
-* Contact Page
-* Shopping Cart
-* OrderNow Page
+### Menu Page
+![Menu Page](./src/screenshots/Menu.png)
+
+### About Page
+![About Page](./src/screenshots/AboutPage.png)
+
+### Shopping Cart
+![Cart Page](./src/screenshots/CartPage.png)
+
+### Contact Us
+![Contact Page](./src/screenshots/ContactUs%20(2).png)
+
+### Order Page
+![Order Page 1](./src/screenshots/OrderPage1.png)
+
+![Order Page 2](./src/screenshots/OrderPage2.png)
 
 ⚠️ Important Notes
 
