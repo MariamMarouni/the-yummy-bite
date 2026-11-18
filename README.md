@@ -151,4 +151,4 @@ Created with love for The Yummy Bite 🍰💗
 📌 Project Links
 
 * GitHub Repository: https://github.com/MariamMarouni/the-yummu-bite
-* Live Website: https://mariammarouni.netlify.app
+* Live Website: https://the-yummy-bite.netlify.app
